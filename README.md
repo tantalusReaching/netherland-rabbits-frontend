@@ -1,2 +1,30 @@
-# netherland-rabbits-frontend
-Responsive ReactJS frontend for a Netherland Rabbits sales website, with a Node backend for data fetching and contact, deployed to a Digital Ocean droplet.
+## ReactJS [NetherlandBunnies.com](https://www.netherlandbunnies.com "NetherlandBunnies.com") Frontend 
+###### (Github for NodeJS backend for this project found [here](https://github.com/tantalusReaching/netherland-rabbits-backend "Backend: netherland-rabbits-backend"))
+
+A fully responsive frontend for Netherland Rabbits sales website, where users can see an up-to-date listing of available Netherland Dwarf rabbits for sale, find out more about the purchasing process, and fill out a contact form for more information.  
+<br>
+<img src="https://media.giphy.com/media/2wneInSPbFnRkb5oM4/giphy.gif">
+<br>
+<img src="https://media.giphy.com/media/52mABqfjMoBxyuSBbq/giphy.gif">
+<br>
+## Technologies and packages used on frontend
+* ReactJS
+* Mostly vanilla CSS
+* Vivus for SVG path animation on custom SVG
+* React-router-dom and Redux, (just cause)
+* Various packages for card animations and transitions
+<br>
+
+## Details on the [backend](https://github.com/tantalusReaching/netherland-rabbits-backend "Backend: netherland-rabbits-backend")
+* NodeJS backend serving REST API for inventory queries and contact forms
+* Sendgrid nodemailer implementation used to forward inquries through email to website operator
+* Website inventory on backend is fed from a Google Sheet
+  * Provided through google-spreadsheet package
+  * This makes editing of the website inventory instantaneous and trivial for the layperson
+
+<br>
+Both the frontend and backend have been deployed to a Digital Ocean droplet  
+
+#### Todo: 
+- [ ] Refactor CSS into concerns better
+- [ ] Utilize lazy to split packages up

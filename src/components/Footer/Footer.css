@@ -1,0 +1,11 @@
+footer {
+  position: relative;
+  bottom: 0;
+  height: var(--footer-height);
+  width: 100%;
+  margin-left: 0px;
+  padding-left: var(--content-spacer);
+  background-color: #baddda;
+  color: #f9f3db;
+  overflow: hidden;
+}
